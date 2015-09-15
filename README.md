@@ -1,1 +1,1 @@
-# nodejs_ubuntu_with_nvm
+# nodejs_with_nvm
