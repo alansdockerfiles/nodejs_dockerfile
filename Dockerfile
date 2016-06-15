@@ -19,8 +19,6 @@ RUN curl https://raw.githubusercontent.com/creationix/nvm/v0.20.0/install.sh | b
 ENV NODE_PATH $NVM_DIR/versions/v$NODE_VERSION/lib/node_modules
 ENV PATH      $NVM_DIR/versions/v$NODE_VERSION/bin:$PATH
 
-RUN apt-get -y install phantomjs --fix-missing
-RUN npm install phantom
 RUN apt-get -y install build-essential
 RUN npm install weak
 RUN npm install -g node-inspector
